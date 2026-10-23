@@ -74,7 +74,7 @@ There are no advertising trackers, analytics cookies, or customer accounts in th
 
 ## Content and images
 
-The article pages include source links and model-specific cautions. Keep factual advice tied to those sources, and do not add unsupported technical procedures or professional endorsements. The content is general guidance and does not replace the appliance manufacturer's instructions or a technician's diagnosis.
+The article pages explain common symptoms and direct customers toward company inspection enquiries. They include source links and model-specific cautions. Keep factual advice tied to those sources, and do not add unsupported technical procedures or professional endorsements. The content is general guidance and does not replace the appliance manufacturer's instructions or a technician's diagnosis.
 
 The appliance photographs are AI-generated illustrative scenes. They are not photographs of Bilal, the real shop, technicians, customer homes, or completed repairs. Their full provenance is recorded in `assets/ASSET-NOTES.md`, which is excluded from the public build. The generated assets have no manufacturer endorsement. Preserve that distinction in captions, alt text, and future marketing copy.
 
@@ -90,4 +90,4 @@ To use it in Codex, open this repository folder as a **local project**, then ask
 
 The current preview implements `design/approved-premium-concept.png` as responsive HTML/CSS, with a cinematic appliance hero, Libre Caslon Display headings, ivory sections, compact service/process/advice layouts and a navy contact footer. The generated concept is a visual reference; interactive content remains real HTML.
 
-Contact actions use **Call us**. The headline offer is **Inspection for only AED 50**, followed by a separate-repair-cost statement. Business information and FAQs remain available in the expandable About section. Existing guide texts and source links are preserved. New illustrative assets use versioned `*-premium.webp` filenames; provenance and generation prompts are recorded in `assets/ASSET-NOTES.md`.
+Contact actions use **Call us**. The headline offer is **Inspection for only AED 50**, followed by a separate-repair-cost statement. Business information and FAQs remain available in the expandable About section. Existing article routes and source links are preserved. The current service-led articles support company enquiries instead of self-repair walkthroughs. New illustrative assets use versioned `*-premium.webp` filenames; provenance and generation prompts are recorded in `assets/ASSET-NOTES.md`.

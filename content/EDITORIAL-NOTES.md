@@ -1,19 +1,9 @@
-# Initial appliance advice content
+# Repair-service editorial direction
 
-`articles.json` contains five complete, original homeowner guides. The file is a root JSON array and follows the agreed article schema. Each article has five sections, primary source links, related article slugs and a short safety note. No author, review status or publication date is asserted.
+The user requested company-led repair articles rather than self-repair content on 23 October 2026. The five existing routes are retained. Each article now explains the symptom, when to contact the business, why an inspection is useful, the AED 50 inspection fee and what details to share in an enquiry. No dismantling, filter cleaning, hose adjustments, gasket repair, reset sequences or other repair walkthroughs are included.
 
-## Research and content scope
+The articles support enquiries for Babar Shokut Electric Wear without asserting that every symptom requires a paid repair. Several explanations may exist; the appropriate repair and price depend on assessment. Do not use fear, fabricated urgency, credentials, guaranteed outcomes, warranties, fee-credit promises or claims of manufacturer affiliation. AED 50 is an inspection fee; repair costs are discussed separately. WhatsApp remains a draft rather than a confirmed booking.
 
-Manufacturer sources were read from Samsung, Whirlpool, LG and Daikin on 21 October 2026. FoodSafety.gov is additionally cited for food safety when refrigeration is lost. Source links belong in a visible references section on each article page.
+Manufacturer background sources were revisited on 23 October 2026: Samsung drainage support, Whirlpool refrigeration and washer-vibration guidance, LG door-seal support and Daikin cooling guidance. FoodSafety.gov remains linked for loss of safe refrigeration. Safety notes are brief and separate from the sales message. Source links remain accessible in Technical references on each article. References do not imply manufacturer endorsement.
 
-The guidance intentionally limits itself to observation, ordinary controls, accessible visual checks and manufacturer-directed user maintenance. It does not instruct readers to remove service panels, disconnect plumbing, work on live circuits, handle refrigerant, adjust heavy appliances or diagnose a failed part from a single symptom. Regional and model-specific instructions are not generalised into universal dimensions, temperatures, timing or error codes.
-
-The source list does not indicate a business affiliation, brand authorisation or promise that this company services every model from these manufacturers. None of those claims should be added to the article template.
-
-## Reading time
-
-`readMinutes` is an editorial estimate calculated as the ceiling of the visible article word count divided by 200 words per minute. The visible count includes title, introduction, safety note, section headings, paragraphs and bullet points. It excludes card excerpts, source titles and global site navigation. All five currently resolve to approximately three minutes.
-
-## Verification
-
-The JSON parses successfully. Required article fields are present; category values match the agreed three-category enum; section IDs are unique within each article; all related article slugs resolve within the collection; source destinations use HTTPS; copy contains no em dashes. Image alt text must be checked against the final selected imagery before publication.
+Each JSON record includes `cardTitle`, `enquiryIssue` and `searchTerms` alongside the existing schema. `enquiryIssue` supplies an editable symptom description to the enquiry form. `searchTerms` supports natural-language search variants. `readMinutes` is the ceiling of article title, introduction, safety note, section headings, paragraphs and bullets divided by 200 words per minute. Source labels and repeated template controls are excluded. No personal author, review status or publication date is invented.

@@ -45,10 +45,15 @@
   const dialog = document.getElementById("inspection-dialog");
   const form = document.getElementById("inspection-form");
   let opener = null;
+  let lastPreparedIssue = "";
   if (dialog && typeof dialog.showModal === "function" && form) {
     document.querySelectorAll(".open-enquiry").forEach(link => link.addEventListener("click", event => {
       event.preventDefault(); closeMenu(); opener = link;
       if (link.dataset.service) form.elements.appliance.value = link.dataset.service;
+      if (link.dataset.issue && (!form.elements.issue.value || form.elements.issue.value === lastPreparedIssue)) {
+        form.elements.issue.value = link.dataset.issue;
+        lastPreparedIssue = link.dataset.issue;
+      }
       document.getElementById("enquiry-status").textContent = "";
       document.getElementById("whatsapp-fallback").hidden = true;
       dialog.showModal();
@@ -81,6 +86,14 @@
     });
   }
 
+  const articleContents = document.querySelector(".toc");
+  if (articleContents) {
+    const mobileArticle = window.matchMedia("(max-width: 760px)");
+    const updateContents = () => { articleContents.open = !mobileArticle.matches; };
+    updateContents();
+    mobileArticle.addEventListener("change", updateContents);
+  }
+
   const search = document.getElementById("guide-search");
   if (search) {
     const cards = Array.from(document.querySelectorAll(".article-card[data-category]"));
@@ -103,7 +116,7 @@
         card.hidden = !match || (isDefault && card.dataset.featured === "true");
       });
       if (feature) feature.hidden = !isDefault;
-      count.textContent = matches + (matches === 1 ? " guide found" : " guides found");
+      count.textContent = matches + (matches === 1 ? " article found" : " articles found");
       noResults.hidden = matches !== 0;
       clearButton.hidden = isDefault;
       tabs.forEach(tab => tab.setAttribute("aria-pressed", String(tab.dataset.category === category)));

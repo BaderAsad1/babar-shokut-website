@@ -188,6 +188,8 @@ def main():
     for relative, doc in documents.items():
         if relative != "404.html" and doc.select_options.get("appliance") != ["", "Washing machine", "Fridge", "AC"]:
             fail(f"{relative}: inspection form must offer all three appliance options.")
+        if re.search(r"call\s+bilal", " ".join(doc.visible), re.IGNORECASE):
+            fail(f"{relative}: use the approved Call us contact label.")
         title = "".join(doc.title).strip()
         titles[title] += 1
         if doc.title_count != 1 or not title:

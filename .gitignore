@@ -7,3 +7,4 @@ node_modules/
 .openai/
 dist/
 .playwright-mcp/
+generated_images/

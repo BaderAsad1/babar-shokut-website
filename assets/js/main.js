@@ -29,6 +29,19 @@
     });
   }
 
+  const revealBusinessInfo = () => {
+    if (window.location.hash === "#our-story") {
+      const details = document.querySelector(".business-details");
+      if (details) details.open = true;
+    }
+  };
+  document.querySelectorAll('a[href$="#our-story"]').forEach(link => link.addEventListener("click", () => {
+    const details = document.querySelector(".business-details");
+    if (details) details.open = true;
+  }));
+  window.addEventListener("hashchange", revealBusinessInfo);
+  revealBusinessInfo();
+
   const dialog = document.getElementById("inspection-dialog");
   const form = document.getElementById("inspection-form");
   let opener = null;
@@ -63,7 +76,7 @@
       const fallback = document.getElementById("whatsapp-fallback");
       fallback.href = url;
       fallback.hidden = false;
-      document.getElementById("enquiry-status").textContent = "Your enquiry is ready. Send it in WhatsApp to contact Bilal. An appointment has not been confirmed.";
+      document.getElementById("enquiry-status").textContent = "Your enquiry is ready. Send it in WhatsApp to contact us. An appointment has not been confirmed.";
       window.open(url, "_blank", "noopener,noreferrer");
     });
   }

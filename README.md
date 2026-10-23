@@ -70,7 +70,7 @@ The business name, owner, operating since 2012, address, and service coverage in
 
 The inspection form prepares a WhatsApp draft on the visitor's device. It does not submit a booking to this website, store customer details in a database, or send a message automatically. The visitor chooses whether to send the draft in WhatsApp. Calls and directions open their corresponding external services.
 
-There are no advertising trackers, analytics cookies, or customer accounts in the application. The font is requested from Google Fonts with a system-font fallback, as disclosed on the privacy page. The privacy page explains the enquiry flow and external-service handling. Do not add a fake confirmation state that implies an appointment has been booked.
+There are no advertising trackers, analytics cookies, or customer accounts in the application. Manrope and Libre Caslon Display are requested from Google Fonts with system-font fallbacks, as disclosed on the privacy page. The privacy page explains the enquiry flow and external-service handling. Do not add a fake confirmation state that implies an appointment has been booked.
 
 ## Content and images
 
@@ -85,3 +85,9 @@ Before approving a production launch, review the site on a phone and desktop, ve
 This repository is structured for the Codex desktop app. The root `AGENTS.md` contains the authoritative instructions and `docs/CODEX-TASK.md` is the actionable continuation task. `design/` contains two concept screenshots and a screenshot of the implemented site.
 
 To use it in Codex, open this repository folder as a **local project**, then ask Codex to execute `docs/CODEX-TASK.md`. Codex should handle repository creation, GitHub Pages configuration, and visual verification using an authenticated local GitHub session. An automated, non-destructive publishing helper is at `scripts/publish_github_pages.sh`. Do not report a live URL until the deployed site returns a successful response.
+
+## Approved premium concept implementation
+
+The current preview implements `design/approved-premium-concept.png` as responsive HTML/CSS, with a cinematic appliance hero, Libre Caslon Display headings, ivory sections, compact service/process/advice layouts and a navy contact footer. The generated concept is a visual reference; interactive content remains real HTML.
+
+Contact actions use **Call us**. The headline offer is **Inspection for only AED 50**, followed by a separate-repair-cost statement. Business information and FAQs remain available in the expandable About section. Existing guide texts and source links are preserved. New illustrative assets use versioned `*-premium.webp` filenames; provenance and generation prompts are recorded in `assets/ASSET-NOTES.md`.

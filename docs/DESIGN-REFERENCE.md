@@ -1,6 +1,6 @@
 # Design direction
 
-## Current direction: service clarity, 23 October 2026
+## Earlier direction: service clarity, 23 October 2026
 
 The user rejected the initial preview as gimmicky. This feedback supersedes the original concept boards as a design target. Preserve the business identity, existing page routes and static architecture.
 
@@ -22,3 +22,11 @@ Competitor warranties, ratings, technician certifications, response times and br
 ## Historical references
 
 `design/homepage-concept.png` and `design/blog-concept.png` are the original generated concept boards. `design/implemented-homepage.jpg` records the earlier implementation. They remain for context, not as exact targets for the revised website.
+
+## Current approved direction: imagegen premium concept
+
+The user subsequently rejected the restrained design as still cheap, requested an imagegen concept, and approved that concept for implementation. `design/approved-premium-concept.png` is now the primary visual target.
+
+Implementation: full-width dark appliance hero with real HTML copy, serif wordmark and headings (Libre Caslon Display), Manrope body type, ivory service/process/advice sections, fine separator rules, and a four-column navy footer. Mobile stacks the hero copy above a crop that retains both appliances. Source-backed guides and draft-only enquiry behavior remain functional. About and FAQ information is retained in an expandable section.
+
+Use **Call us** for contact actions. Use **Inspection for only AED 50** with the adjacent qualification that repair costs are discussed separately. Generated concept microcopy suggesting guaranteed scheduling was not adopted; the site asks visitors to discuss availability and visit arrangements. No business guarantees or reviews were invented.

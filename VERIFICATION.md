@@ -34,3 +34,13 @@ Fixed Python 3.9 compatibility in JSON-LD serialization and corrected malformed 
 Verified mobile menu open/close and Escape, required-field validation, appliance/city selection, mobile dialog fit and scrolling, and the generated WhatsApp draft URL. The draft targets +971552434708, includes the AED 50 inspection wording, and explicitly states that no appointment is confirmed. Intercepted the external window during testing; no customer message was sent. Verified the Fridges filter returns two guides, unmatched search shows the empty state, and reset restores all five guides. Phone and Maps destinations match the configured business details.
 
 Preview remains enabled with noindex. Owner confirmation of WhatsApp availability and opening hours remains outstanding before production launch.
+
+## Public deployment verified — 23 October 2026
+
+- Public repository: https://github.com/BaderAsad1/babar-shokut-website
+- Client preview: https://baderasad1.github.io/babar-shokut-website/
+- GitHub Pages source: GitHub Actions (`build_type=workflow`).
+- Successful build and deployment: https://github.com/BaderAsad1/babar-shokut-website/actions/runs/39921740152
+- Deployed website source commit: `cb37c516ed3f403cc401d1b8220e45a030737597`.
+- Actual HTTPS fetches and browser navigation returned HTTP 200 for the homepage, `/advice/`, and `/advice/washing-machine-not-draining/`. All three contained the expected content and noindex metadata. Browser checks found no broken images or horizontal overflow.
+- Opened the verified public homepage in the user's Chrome browser for client review. This is a design preview, not an approved production SEO launch.

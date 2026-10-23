@@ -1,7 +1,24 @@
-# Visual specification
+# Design direction
 
-Open `design/homepage-concept.png` and `design/blog-concept.png` together. These are generated editorial design mockups for a *real* website and **not** literal screenshots of the implemented markup. Compare them to the real build screenshot `design/implemented-homepage.jpg`, run the preview, and focus improvements where the visual hierarchy diverges.
+## Current direction: service clarity, 23 October 2026
 
-Visual hierarchy: high-quality washer and fridge hero on neutral sunlit background > simple action + AED 50 inspection price > two big dominant service cards > smaller AC service strip > clear three-step process > local story since 2012 > SEO guides > FAQ > action block. Advice homepage should feel like a real editorial resource, not an SEO keyword farm.
+The user rejected the initial preview as gimmicky. This feedback supersedes the original concept boards as a design target. Preserve the business identity, existing page routes and static architecture.
 
-Colours: cream #F6F3ED, navy #102337, cobalt #2357E8, lime #E3ECAA. Keep high contrast, generous whitespace, photography that depicts generic appliances not fabricated shop/staff, responsive layout at 320/390/768/1440 widths.
+Reviewed the live desktop sites of [Mr. Appliance US](https://www.mrappliance.com/), [Sears Home Services](https://www.searshomeservices.com/repair), and [Bosch repair support](https://www.bosch-home.com/us/en/repair). Also reviewed the published content of [Mr. Appliance Dubai](https://mrappliance.ae/); its browser page presented a verification challenge, so no visual assessment of that local site is claimed. These are design benchmarks, not a verified ranking of the best businesses or evidence of conversion performance.
+
+### Findings and decisions
+
+| Observed pattern | Change to this site |
+| --- | --- |
+| Sears gives appliance selection and the service action prominence. | Clear washer/fridge service heading, practical symptom lists and appliance-specific enquiry links. |
+| Mr. Appliance makes telephone contact visible and explains the service process. | Telephone in the desktop header, direct call action in the hero, and a concrete enquiry/inspection/repair explanation. |
+| Bosch uses plain service headings and clear appliance categories. | Replaced abstract slogans in the homepage and advice hub with direct service descriptions. |
+| Repair sites explain diagnostic charges separately from repair work. | AED 50 appears as an inspection fee with an adjacent statement that repair costs are separate. |
+
+A restrained implementation: navy typography, warm ivory surfaces, cobalt limited to actions, modest corner radii and no promotional lime price tiles. Removed the repeated washer image and oversized “Since 2012” overlay from the business section. The location panel now contains the real address, directions and phone. Existing illustrative appliance imagery remains; it is not represented as the shop or completed repair work.
+
+Competitor warranties, ratings, technician certifications, response times and brand affiliations are not transferable business facts. None were added. No change to the unconfirmed WhatsApp destination or the preview/noindex state.
+
+## Historical references
+
+`design/homepage-concept.png` and `design/blog-concept.png` are the original generated concept boards. `design/implemented-homepage.jpg` records the earlier implementation. They remain for context, not as exact targets for the revised website.

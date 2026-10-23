@@ -24,7 +24,7 @@
         closeMenu(); menuButton.focus();
       }
     });
-    window.matchMedia("(min-width: 1000px)").addEventListener("change", event => {
+    window.matchMedia("(min-width: 961px)").addEventListener("change", event => {
       if (event.matches) closeMenu();
     });
   }

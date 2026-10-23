@@ -44,3 +44,11 @@ Preview remains enabled with noindex. Owner confirmation of WhatsApp availabilit
 - Deployed website source commit: `cb37c516ed3f403cc401d1b8220e45a030737597`.
 - Actual HTTPS fetches and browser navigation returned HTTP 200 for the homepage, `/advice/`, and `/advice/washing-machine-not-draining/`. All three contained the expected content and noindex metadata. Browser checks found no broken images or horizontal overflow.
 - Opened the verified public homepage in the user's Chrome browser for client review. This is a design preview, not an approved production SEO launch.
+
+## Service-led design revision — 23 October 2026
+
+User feedback superseded the initial visual concept: the first preview felt gimmicky. Research and design decisions are recorded in `docs/DESIGN-REFERENCE.md`. Revised the existing homepage, shared styles and advice presentation while preserving all nine pages, article content, business facts and enquiry behavior.
+
+Removed promotional fee tiles, oversized slogans and the repeated washer image in the business section. Added visible desktop telephone contact, plain inspection pricing, service symptom lists, appliance-specific enquiry links and a practical address/contact panel. Reduced heading sizes and decorative styling throughout the advice hub and articles. Fixed dialog body scroll locking and aligned the navigation breakpoint with its CSS.
+
+Re-ran browser QA at 1440px, 768px, 390px and 320px across homepage, advice hub and drainage article: all images loaded, no horizontal overflow. Verified menu open, Escape and reset at the desktop breakpoint; service preset selection; native required-city validation; draft-only WhatsApp URL and truthful status text; modal scroll lock, scroll restoration and focus return; Fridges filter, no-results state and five-guide reset. External message opening was intercepted. No message was sent. No application JavaScript errors were observed. Build, release check (nine pages, 319 references) and JS syntax pass. Preview/noindex remains enabled.

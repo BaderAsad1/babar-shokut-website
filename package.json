@@ -1,0 +1,7 @@
+{
+  "name": "babar-shokut-website",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Babar Shokut Electric Wear client preview, built as a fast static website.",
+  "scripts": {"build": "python3 scripts/build.py", "check": "python3 scripts/check.py"}
+}

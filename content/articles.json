@@ -1,0 +1,375 @@
+[
+  {
+    "slug": "washing-machine-not-draining",
+    "title": "Washing machine not draining? What to check before booking a repair",
+    "category": "washing-machines",
+    "categoryLabel": "Washing machines",
+    "excerpt": "A few safe observations can help you explain the problem, without opening the machine or guessing which part has failed.",
+    "image": "washer.webp",
+    "imageAlt": "Front-loading washing machine in a warm, minimal laundry space",
+    "intro": "A wash finishes, but water is still sitting in the drum. Before trying another cycle, take a moment to note what happened. A selected setting, a drain-hose problem or a blockage can all affect drainage. The symptom alone cannot tell you which one is responsible. These checks help you decide what to do next without dismantling the washer.",
+    "safetyNote": "Keep away from water near plugs or sockets. Do not force a locked door, disconnect hoses or open a filter while the machine contains water. Follow the safety instructions for your exact model.",
+    "readMinutes": 3,
+    "sections": [
+      {
+        "id": "notice-what-stopped",
+        "heading": "First, notice exactly what has stopped",
+        "paragraphs": [
+          "Look at the display before changing anything. Is the programme still running, paused, or showing an error? Is there visible water, or are the clothes simply wetter than usual? Those are different observations, so describe what you can actually see.",
+          "Take a photo of any displayed code. Error meanings vary between brands and models; copying a repair instruction for a similar-looking washer can lead you in the wrong direction. Note whether the problem appeared suddenly or started after the appliance was moved."
+        ]
+      },
+      {
+        "id": "check-the-programme",
+        "heading": "Check the programme and selected options",
+        "paragraphs": [
+          "Some machines have a rinse-hold option that deliberately leaves laundry in water until you choose the next step. Samsung documents this behaviour on certain models. That does not mean every washer uses the same button or symbol.",
+          "Find the programme in your own manual. If it explains that the current setting retains water, follow its normal instructions for completing that programme. Do not repeatedly restart washes or select random button combinations. If the display shows a fault, use the manufacturer's model-specific guidance."
+        ]
+      },
+      {
+        "id": "look-at-the-drain-hose",
+        "heading": "Look for a visible hose problem",
+        "paragraphs": [
+          "With the washer switched off, look at any part of the drain hose you can see without moving a heavy appliance. A section trapped against furniture, sharply bent or visibly crushed is useful information for the technician. Samsung identifies hose positioning and restrictions as possible drainage issues.",
+          "Do not pull the hose out of the drain or change its height based on a general online diagram. Installation dimensions depend on the appliance and drainage arrangement. If access requires moving the washer or reaching behind it, leave that check for the visit."
+        ]
+      },
+      {
+        "id": "leave-filter-work-to-the-manual",
+        "heading": "A filter check is not the same on every washer",
+        "paragraphs": [
+          "A blocked pump filter is another possibility on machines that have one. However, filter access, drainage procedures and safety instructions differ. Releasing a cap while water remains inside can turn a drainage problem into a spill.",
+          "This guide does not ask you to open it. If you are unsure whether your model has a user-serviceable filter, consult its manual or ask for help. A visible symptom is not enough to justify replacing the pump."
+        ]
+      },
+      {
+        "id": "prepare-your-enquiry",
+        "heading": "Make the inspection easier to arrange",
+        "paragraphs": [
+          "If the washer still holds water after the applicable checks, leave it out of use and request an inspection. Send the observations below rather than a guessed diagnosis. They give the person assessing the machine a clearer starting point."
+        ],
+        "bullets": [
+          "The brand and model number, if accessible without moving the machine.",
+          "A photo of the display and any error code.",
+          "Whether water remains in the drum and when the programme stopped.",
+          "Any leak, unusual sound, recent move or installation change."
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "title": "Samsung: Why is my washing machine not draining?",
+        "url": "https://www.samsung.com/sa_en/support/home-appliances/solution-for-no-draining-issue-of-washing-machine/"
+      },
+      {
+        "title": "Samsung: Washing-machine cycles, settings and features",
+        "url": "https://www.samsung.com/us/support/answer/ANS10001016/"
+      },
+      {
+        "title": "Samsung: What to do when a washing machine does not fill or drain",
+        "url": "https://www.samsung.com/uk/support/home-appliances/what-to-do-when-my-washing-machine-does-not-fill-up-or-drain/"
+      }
+    ],
+    "relatedSlugs": [
+      "washing-machine-making-noise",
+      "fridge-not-cooling"
+    ]
+  },
+  {
+    "slug": "fridge-not-cooling",
+    "title": "Fridge not cooling? Start with these simple checks",
+    "category": "fridges",
+    "categoryLabel": "Fridges",
+    "excerpt": "Check the settings, airflow and door closure, then know when the cooling problem needs an inspection.",
+    "image": "fridge.webp",
+    "imageAlt": "Stainless-steel fridge beside warm cream kitchen cabinetry",
+    "intro": "A fridge that feels warmer than usual needs attention, but it does not automatically mean the compressor has failed. Controls, blocked airflow and a door that is not closing properly can also affect cooling. Start with what you can see, protect your food, and avoid taking the appliance apart.",
+    "safetyNote": "Do not leave perishable food in a fridge that cannot keep it safely cold while you troubleshoot. Never taste food to decide whether it is safe. Use the linked official food-safety guidance if its temperature history is uncertain.",
+    "readMinutes": 3,
+    "sections": [
+      {
+        "id": "record-the-change",
+        "heading": "Record what changed and when",
+        "paragraphs": [
+          "Is the fridge section warm while the freezer still seems cold, or are both affected? Did the problem follow a power cut, a large grocery load or a move? Write down when you first noticed it. If you have an appliance thermometer, record its reading rather than relying only on how a bottle feels.",
+          "Move food that still needs refrigeration to suitable cold storage promptly. Food that has already been too warm may need to be discarded; cooling it again does not automatically make it safe. FoodSafety.gov provides a food-by-food reference for loss of refrigeration."
+        ]
+      },
+      {
+        "id": "check-the-controls",
+        "heading": "Look at the controls before adjusting them",
+        "paragraphs": [
+          "Check the displayed setting against your model's manual. Some appliances have a separate cooling control or a demonstration mode that can leave lights working while cooling is disabled. The exact controls vary, so avoid copying a reset sequence from a different refrigerator.",
+          "A recently installed appliance or one loaded with many warm items may need time to stabilise. Follow its manual, but do not interpret a cooling-down period as permission to leave food at an unsafe temperature. If it has suddenly stopped cooling, arrange help rather than repeatedly turning the dial colder."
+        ]
+      },
+      {
+        "id": "give-air-room-to-move",
+        "heading": "Give the cold air room to circulate",
+        "paragraphs": [
+          "Look for packages pressed against the visible internal vents. Move those items so the openings are clear, and avoid packing food tightly against the back wall. Whirlpool explains that blocked vents and overfilled compartments can interfere with airflow.",
+          "If you see heavy frost around an opening, photograph it. Do not chip ice away with a knife or remove the internal cover. Also note any furniture or objects covering the appliance's external ventilation openings, without pulling a heavy fridge out yourself."
+        ]
+      },
+      {
+        "id": "check-door-closure",
+        "heading": "Make sure the door closes fully",
+        "paragraphs": [
+          "A container, protruding bag or drawer that is not fully seated can prevent proper closure. Clear the obstruction and check that the door meets the cabinet evenly. Look at the flexible gasket for visible dirt, damage or a gap.",
+          "For routine surface cleaning, use the method permitted by your manual. Do not stretch, heat or glue the gasket to make it fit. A seal that remains loose or visibly damaged deserves a closer inspection. Keep unnecessary door opening to a minimum while assessing the problem."
+        ]
+      },
+      {
+        "id": "when-to-arrange-help",
+        "heading": "When the basics do not explain it",
+        "paragraphs": [
+          "Persistent poor cooling, repeated electrical tripping or an unusual new noise should be assessed by a technician. Internal fans, controls and refrigeration components cannot be diagnosed reliably from a single symptom, and their repair is outside these homeowner checks.",
+          "For your enquiry, share the brand, model, temperature observations, any error display and whether one or both compartments are affected. Mention what changed before the fault and which simple checks you have already made. That is more useful than asking for a particular part to be replaced."
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "title": "Whirlpool: Why a refrigerator may not be cooling",
+        "url": "https://www.whirlpool.com/blog/kitchen/why-is-my-refrigerator-not-cooling.html"
+      },
+      {
+        "title": "Whirlpool: Refrigerator troubleshooting",
+        "url": "https://www.whirlpool.com/blog/kitchen/refrigerator-troubleshooting.html"
+      },
+      {
+        "title": "FoodSafety.gov: Food safety during a power outage",
+        "url": "https://www.foodsafety.gov/food-safety-charts/food-safety-during-power-outage"
+      }
+    ],
+    "relatedSlugs": [
+      "fridge-door-not-sealing",
+      "washing-machine-not-draining"
+    ]
+  },
+  {
+    "slug": "washing-machine-making-noise",
+    "title": "Washing machine making noise? Here is what to notice",
+    "category": "washing-machines",
+    "categoryLabel": "Washing machines",
+    "excerpt": "The type of sound and when it happens are more useful than guessing which component needs replacing.",
+    "image": "washer.webp",
+    "imageAlt": "Front-loading washing machine with its door open and stainless-steel drum visible.",
+    "intro": "Washers make different sounds as they fill, wash, drain and spin. A new noise can be unsettling, particularly when the machine starts shaking too. The useful first question is when the sound happens and what the washer is doing at that moment. You do not need to remove a panel to gather that information.",
+    "safetyNote": "If the washer is moving violently, leaking, producing a burning smell or repeatedly tripping the electricity, stop using it and seek help. Do not hold a moving machine in place or bypass its door lock.",
+    "readMinutes": 3,
+    "sections": [
+      {
+        "id": "describe-the-sound",
+        "heading": "Describe the sound and the stage of the wash",
+        "paragraphs": [
+          "Does it sound like a rhythmic thump, a metallic rattle or a grinding noise? Does it begin during a fast spin, while water drains, or as the drum turns slowly? If it is safe to do so, a short recording from a normal standing distance can help explain it.",
+          "Some humming, gurgling and whirring can be normal on particular models. Whirlpool describes these sounds during drainage and other operations in its user documentation. That does not make every loud or newly changed sound normal. Compare it with your own manual and the washer's usual behaviour."
+        ]
+      },
+      {
+        "id": "consider-the-load",
+        "heading": "Consider what is inside the drum",
+        "paragraphs": [
+          "A heavy item or uneven load can contribute to thumping and vibration during spin. An overfilled drum can also upset the balance. Notice whether the noise appeared with bedding or a bulky item, or whether it now happens with ordinary loads as well.",
+          "If there are no warning signs, use the normal pause control and wait for the drum to stop and the door to unlock according to the manual. Follow that model's loading guidance to redistribute or reduce the load. Never reach into a moving drum or force the door."
+        ]
+      },
+      {
+        "id": "look-around-the-washer",
+        "heading": "Look at the installation from the outside",
+        "paragraphs": [
+          "Check whether an object is resting against the cabinet or whether the washer appears to have shifted. An appliance that is not stable or correctly installed can vibrate excessively. This is especially relevant if the sound began after delivery, moving home or rearranging the laundry area.",
+          "Do not tilt the machine, crawl underneath it or improvise supports. Ask the installer or technician to assess its position and installation instructions. If a front-loader has just been installed, mention that history so the installation checks can include its model-specific transport restraints."
+        ]
+      },
+      {
+        "id": "check-for-loose-items-safely",
+        "heading": "Do not chase a rattle inside the machine",
+        "paragraphs": [
+          "Coins and other small items left in clothing are worth mentioning when reporting a metallic sound. Empty pockets before future washes. Once the washer is off and safely unlocked, remove only loose items plainly visible in the accessible drum.",
+          "Do not push tools through drum holes or dismantle a pump, filter housing or cabinet to find an object. A sound can travel through the machine, so where it seems loudest is not a reliable diagnosis of the failed component."
+        ]
+      },
+      {
+        "id": "send-a-useful-description",
+        "heading": "Send a useful description with your enquiry",
+        "paragraphs": [
+          "If the noise persists with a suitable load, or the machine is shaking excessively, request an inspection. Include the brand, model, stage of the cycle and whether the washer has recently moved. Mention water remaining in the drum, an error code or a leak as separate observations.",
+          "A recording can support those details, but it cannot confirm that a bearing, motor or pump needs replacement. Leave the diagnosis and any internal work to an inspection."
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "title": "Whirlpool: How to stop a washer from shaking",
+        "url": "https://www.whirlpool.com/blog/washers-and-dryers/how-to-stop-washer-shaking.html"
+      },
+      {
+        "title": "Whirlpool: Washer/dryer use and care guide, troubleshooting and safety",
+        "url": "https://www.whirlpool.com/content/dam/global/documents/202311/owners-manual-w11691191-revA.pdf"
+      },
+      {
+        "title": "Whirlpool: Knocking or thumping washer noise",
+        "url": "https://producthelp.whirlpool.com/Laundry/Washers/Top_Load_Washer/Noises_and_Sounds/Knocking_or_Thumping_-_Noise"
+      }
+    ],
+    "relatedSlugs": [
+      "washing-machine-not-draining",
+      "fridge-not-cooling"
+    ]
+  },
+  {
+    "slug": "fridge-door-not-sealing",
+    "title": "Fridge door not sealing properly? Check these everyday causes",
+    "category": "fridges",
+    "categoryLabel": "Fridges",
+    "excerpt": "A misplaced drawer, trapped bag or dirty seal may be stopping the door from closing as it should.",
+    "image": "fridge.webp",
+    "imageAlt": "Modern refrigerator in a bright, uncluttered kitchen",
+    "intro": "When a fridge door does not sit flush, the flexible seal is an obvious suspect. But the problem may begin inside the cabinet: a protruding container or incorrectly seated shelf can keep the door open even when the gasket itself is intact. Start with a careful look before ordering a replacement seal.",
+    "safetyNote": "Keep hands clear of hinges and closing edges. Do not heat, stretch, glue or cut the gasket, and do not loosen hinges or tilt the fridge. Follow the cleaning instructions for your particular model.",
+    "readMinutes": 3,
+    "sections": [
+      {
+        "id": "clear-the-door-path",
+        "heading": "Check what is getting in the door's way",
+        "paragraphs": [
+          "Look for large bottles, food containers and bags extending beyond the shelves. A small strip of packaging caught at the edge can be easy to miss. Move any obstruction, then gently close the door again rather than pushing harder against it.",
+          "Pay attention to items in the door bins too. LG identifies overloading and trapped objects as reasons a refrigerator may not close properly. The aim is to leave a clear path for the door, not to force a packed compartment shut."
+        ]
+      },
+      {
+        "id": "check-shelves-and-drawers",
+        "heading": "Make sure shelves and drawers are seated",
+        "paragraphs": [
+          "Did the problem start after a clean or a reorganisation? A drawer can look almost closed while sitting slightly out of position. Check that the ordinary removable storage pieces are seated as shown in the manual and that nothing behind them is stopping them from sliding home.",
+          "Do not force a glass shelf or remove a fixed interior panel. If a part will not return to its normal position easily, photograph it and ask for guidance. That history may explain the closure problem more clearly than simply reporting a weak seal."
+        ]
+      },
+      {
+        "id": "clean-the-contact-surfaces",
+        "heading": "Look for dirt on the gasket",
+        "paragraphs": [
+          "Food residue or debris on the flexible gasket can interfere with contact against the cabinet. Inspect its visible folds and the surface it meets. LG identifies gasket contamination as one possible reason for poor closure. For cleaning, use only the method and products recommended in your own model's care instructions.",
+          "Wipe gently and dry the area. Do not pull the seal away from the door, use an abrasive tool or assume that a stronger chemical will help. After cleaning, close the door normally and see whether the same visible gap remains."
+        ]
+      },
+      {
+        "id": "note-damage-and-alignment",
+        "heading": "Note damage without trying to reshape it",
+        "paragraphs": [
+          "Look for a tear, a loose section or an area that appears twisted. Photograph the affected corner and the whole closed door. If the problem is at one specific point, those two views give a technician more context than an extreme close-up alone.",
+          "Door alignment and installation can also need assessment. Do not start adjusting hinges or levelling feet from a generic video. Doors are heavy, and the required procedure depends on the refrigerator. A persistent gap after the simple checks is a reason to arrange an inspection."
+        ]
+      },
+      {
+        "id": "what-to-send",
+        "heading": "Explain what you have noticed",
+        "paragraphs": [
+          "Share the brand and model, where the door is not meeting the cabinet, and whether it closes then opens again. Mention a recent move, cleaning session or change to the shelf arrangement. Include any cooling concern separately rather than assuming the gasket explains everything.",
+          "If food is no longer staying cold, deal with that promptly using reliable food-safety guidance. A door that looks better after cleaning is encouraging, but the appliance still needs to maintain safe storage conditions."
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "title": "LG: Refrigerator door seal issues",
+        "url": "https://www.lg.com/us/support/help-library/lg-refrigerator-refrigerator-door-seal-issues--20154713239119"
+      },
+      {
+        "title": "LG: Troubleshooting a refrigerator door that does not close properly",
+        "url": "https://www.lg.com/us/support/help-library/lg-refrigerator-troubleshooting-a-refrigerator-door-not-closing-properly--20153121354085"
+      },
+      {
+        "title": "LG: Weak door seal and door closure issues",
+        "url": "https://www.lg.com/us/support/help-library/lg-refrigerator-weak-door-seal-and-door-closure-issues--20154713215859"
+      },
+      {
+        "title": "FoodSafety.gov: Food safety during a power outage",
+        "url": "https://www.foodsafety.gov/food-safety-charts/food-safety-during-power-outage"
+      }
+    ],
+    "relatedSlugs": [
+      "fridge-not-cooling",
+      "washing-machine-not-draining"
+    ]
+  },
+  {
+    "slug": "ac-not-cooling",
+    "title": "AC running but not cooling? Check the basics first",
+    "category": "ac-care",
+    "categoryLabel": "AC care",
+    "excerpt": "Review the mode, airflow and room conditions before assuming the air conditioner needs a specific repair.",
+    "image": "ac.webp",
+    "imageAlt": "Wall-mounted split air conditioner above a calm, sunlit living space",
+    "intro": "An air conditioner can be running without making the room comfortably cool. The remote setting, restricted airflow or heat entering the room may be part of the picture. These safe, accessible checks help you describe the issue and decide when to arrange an inspection. They are not a way to diagnose a refrigerant or electrical fault.",
+    "safetyNote": "Stop using an AC that smells of burning, repeatedly trips the electricity or leaks water near electrical fittings. Do not open service panels, touch wiring, handle refrigerant or climb to reach equipment.",
+    "readMinutes": 3,
+    "sections": [
+      {
+        "id": "check-the-mode",
+        "heading": "Check the mode on the remote or controller",
+        "paragraphs": [
+          "Look at the selected operating mode and temperature. Fan-only operation is different from cooling. Use your model's manual to confirm the cooling symbol and controls rather than relying on a similar remote pictured online.",
+          "Also note whether a timer or another selected setting is affecting operation. If the remote display is blank or unclear, follow its instructions for checking the batteries. Avoid repeated rapid restarts: some units have a protective delay after stopping or changing mode. Use the timing given in the manual for your system."
+        ]
+      },
+      {
+        "id": "check-accessible-airflow",
+        "heading": "Look for something blocking the airflow",
+        "paragraphs": [
+          "From a safe position, check whether curtains, furniture or stored objects are obstructing the indoor unit's air path. Do not put your fingers or tools through a grille. Note whether the air feels weak, reasonably strong but warm, or cool near the unit while the wider room stays hot.",
+          "These descriptions are useful for an enquiry, but none proves a particular fault. Keep outdoor equipment observations to anything safely visible from ground level. Do not reach across a balcony or climb onto a roof to inspect the outdoor unit."
+        ]
+      },
+      {
+        "id": "review-filter-maintenance",
+        "heading": "Check what your manual says about the filter",
+        "paragraphs": [
+          "Dust on a filter can restrict airflow and reduce cooling performance. Daikin recommends appropriate filter maintenance, but access and cleaning methods depend on the unit. Some filters are washable; other components require a different approach.",
+          "Only carry out maintenance that the manufacturer identifies as safe for the user, with the power isolated as instructed and the filter accessible without unsafe climbing. If access means opening a service panel or using a ladder, leave it to a technician. Do not spray water or cleaning chemicals into the appliance."
+        ]
+      },
+      {
+        "id": "reduce-room-heat",
+        "heading": "Check the room as well as the appliance",
+        "paragraphs": [
+          "Close external doors and windows while cooling, and use curtains or blinds to reduce direct sunlight. Daikin notes that incoming heat and escaping cooled air can work against the air conditioner. Keep necessary building ventilation arrangements in place; do not block ventilation grilles.",
+          "Consider whether the room conditions have changed. A door left open to a warmer area or stronger afternoon sunlight is useful context. If the same setup previously cooled comfortably and now does not, mention that change rather than assuming the weather alone explains it."
+        ]
+      },
+      {
+        "id": "when-to-request-inspection",
+        "heading": "Know when the simple checks are enough",
+        "paragraphs": [
+          "If the AC still performs poorly with the correct settings and a clear air path, request an inspection. Photograph any displayed error and describe flashing lights exactly. Do not clear fault codes repeatedly or request a refrigerant top-up solely because the room feels warm.",
+          "For a useful first message, include the unit type, brand, accessible model details, room affected, airflow observations and when the problem began. Mention any water leak or unusual noise. Those facts give the technician a starting point without presenting a guess as a diagnosis."
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "title": "Daikin: Residential air-conditioner troubleshooting",
+        "url": "https://www.daikin.com/products/ac/services/troubleshooting"
+      },
+      {
+        "title": "Daikin: Air-conditioner filter care and airflow",
+        "url": "https://www.daikin.com/air/daikin_techknowledge/learning/smart_air_conditioning/article2"
+      },
+      {
+        "title": "Daikin: Keeping a room cool",
+        "url": "https://www.daikin.com/air/daikin_techknowledge/learning/smart_air_conditioning/article5"
+      },
+      {
+        "title": "Daikin: Frequently asked air-conditioning questions",
+        "url": "https://www.daikin.com.sg/business/faqs/"
+      }
+    ],
+    "relatedSlugs": [
+      "fridge-not-cooling",
+      "washing-machine-making-noise"
+    ]
+  }
+]

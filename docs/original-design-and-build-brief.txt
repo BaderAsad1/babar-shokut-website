@@ -1,0 +1,166 @@
+BABAR SHOKUT ELECTRIC WEAR
+WEBSITE BUILD SUPER-PROMPT
+Design-led implementation brief | Homepage, advice index and article template
+
+ROLE AND OUTCOME
+
+Act as a senior product designer, frontend engineer, conversion copywriter and technical SEO specialist. Build a polished, production-quality website for the real appliance repair business described below. Use the supplied homepage and blog-index mockups as the visual references. Translate their composition into responsive, accessible components and real text. Do not turn a screenshot into the website or substitute a generic repair-company template.
+
+The commercial objective is enquiries for washing machine and fridge repairs across Sharjah, Dubai and Ajman. AC repair remains available but secondary. Make the business, its service area, the AED 50 inspection fee and the next action understandable immediately. Complete the implementation and verification autonomously wherever the supplied information allows. Record unresolved business facts centrally and keep progressing with a clearly identified preview.
+
+1. BUSINESS SOURCE OF TRUTH
+
+Use these supplied facts:
+
+- Business: Babar Shokut Electric Wear.
+- Existing listing name: Ac Repair Sharjah – Babar Shokut Electric Wear.
+- Owner: Bilal.
+- Operating since 2012.
+- Address: Building 25, Shop 1, Al Yarmook Street 13, Al Yarmook, Sharjah, UAE.
+- Service areas: Dubai, Sharjah and Ajman.
+- Primary services: washing machine repair and fridge repair.
+- Secondary service: AC repair.
+- Inspection fee: AED 50.
+
+Preserve the supplied spelling of the business name. Display the full name in the footer, contact area and business structured data. The compact wordmark may read “Babar Shokut” above “ELECTRIC WEAR”. Do not silently rename the business.
+
+Use this supplied Google Maps listing for directions. Its coordinates are 25.3527733, 55.4042886. Preserve this actual listing URL as configuration. Do not create an invented branch or imply a separate office in each service city.
+
+https://www.google.com/maps/place/Ac+Repair+Sharjah+Babar+Shokut+Electric+Wear+-+Al+Yarmook+St+13+building+number+25+and+shop+%23+1+-+%D8%A7%D9%84%D8%B4%D8%A7%D8%B1%D9%82%D8%A9%E2%80%AD/@25.3527733,55.4042886,15z/data=!4m6!3m5!1s0x3e5f597ad00ffc0f:0xe04c1afc03b36bb9!8m2!3d25.3527733!4d55.4042886!16s%2Fg%2F11h01x6zf3?g_ep=Eg1tbF8yMDI2MTAxM18wIJvbDyoASAJQAg%3D%3D
+
+The inspection fee is not the total repair price. Do not label it “repairs from AED 50”. No VAT treatment, fee credit, refund, waiver or included parts have been confirmed. Use “AED 50 inspection fee” consistently.
+
+2. CONTENT INTEGRITY AND MISSING INFORMATION
+
+Create one business configuration file for the name, address, service areas, fee, Maps URL, phone, WhatsApp destination, opening hours, domain and publication settings. Keep unknown values null or explicitly unconfigured in the development configuration.
+
+Obtain owner confirmation of the business phone and WhatsApp number before activating public contact destinations. Do not use a number found online merely because it appears plausible. Opening hours, emergency availability, in-home versus workshop arrangements, warranties, supported brands, payment methods, repair turnaround, travel charges and final inspection terms also require confirmation.
+
+Do not invent testimonials, star ratings, review counts, certifications, insurance, job totals, manufacturer partnerships, “all brands”, “same-day”, “24/7”, “no fix, no fee”, fixed repair prices or response-time promises. Do not generate a technician portrait and present it as Bilal. Representative appliance imagery is acceptable; label it appropriately in asset documentation and never describe it as a photograph of this business.
+
+Missing data must not stop the design, responsive implementation or preview. Maintain a concise launch checklist outside the customer interface. Show honest preview-only states for unconfigured actions. Do not publish unresolved placeholder destinations as functioning customer contact links.
+
+3. IMPLEMENTATION AND ROUTES
+
+Inspect the project before choosing tools. Retain a sound existing stack. For a new project, choose a lightweight static-first implementation with prerendered pages and minimal client JavaScript. Avoid accounts, dashboards, databases, payment systems or an unnecessary booking backend.
+
+Required routes:
+
+- / : one complete marketing homepage with section anchors.
+- /advice/ : the blog index shown in the second mockup.
+- /advice/[article-slug]/ : a reusable article-detail template and researched initial content.
+- A helpful not-found page.
+
+Use one maintainable article content collection. Keep titles, descriptions, categories, slugs, images, publication states, sources and genuine publication dates in structured content. Draft articles must be excluded from the public index, sitemap and production routes. All public navigation and card links must resolve.
+
+4. VISUAL SYSTEM
+
+Match the supplied designs closely while adapting intelligently to screen size:
+
+- Warm cream: #F6F3ED.
+- Deep navy: #102337.
+- Cobalt: #2357E8.
+- Pale lime inspection-fee accent: #E3ECAA.
+- White and quiet neutral borders as supporting colours.
+
+Use an elegant, readable sans-serif type system, confident headline scale, clear hierarchy, generous spacing and restrained corner radii. Combine warm domestic appliance photography with precise editorial layouts. The small geometric B mark should be a crisp, original vector asset consistent with the reference.
+
+Keep cobalt for key actions and selected states; use lime sparingly around the inspection fee. Preserve strong contrast. Avoid heavy gradients, excessive shadows, glass effects, generic multicolour cards, stock repair-tool collages and distracting decorative motion.
+
+Use a consistent content width around 1200 pixels on large screens, with fluid gutters and spacing. Headlines must retain intentional line breaks without clipping. Use responsive image crops and art direction, not fixed desktop dimensions squeezed onto mobile.
+
+5. HOMEPAGE CONTENT AND HIERARCHY
+
+Build the following sequence, adjusting proportions to match the reference:
+
+Header: a narrow navy strip reads “Sharjah · Dubai · Ajman” and “Serving customers since 2012”. Below it, use the compact wordmark, navigation “Services”, “How it works”, “Our story”, “Advice”, and the cobalt “Request an inspection” action, matching the mockups. Coverage and Contact remain directly accessible through the relevant homepage sections and footer. The mobile menu must be accessible and easy to dismiss.
+
+Hero eyebrow: “WASHING MACHINE & FRIDGE REPAIR”.
+Hero headline: “Everyday essentials. Working again.”
+Supporting copy: clearly state washing machine and fridge repair across Dubai, Sharjah and Ajman. Introduce Babar Shokut Electric Wear and “Since 2012” naturally.
+Hero primary action: “Talk to Bilal”. Header and closing actions: “Request an inspection”. All should reach the same clearly described enquiry path.
+Secondary action: “Explore services”.
+Fee: a prominent “AED 50” with the unambiguous label “Inspection fee”.
+Imagery: a large, beautifully lit washer and fridge composition. Appliances must lead visually.
+
+Services: two dominant panels for “Washing machine repair” and “Fridge repair”. Explain common reasons to enquire without diagnosing faults or guaranteeing a repair. Suitable examples include not draining, not spinning, leaking, poor cooling and unusual noise. Each panel should lead into the enquiry flow with the service preselected.
+
+AC: a slimmer secondary section, “Also here for your AC”, with a clear route to enquire. Do not give AC equal visual dominance with the main services.
+
+Process: “Tell us the issue → Arrange an inspection → Discuss the repair”. Describe this as the enquiry journey. Do not invent online appointment availability or a contractual approval process.
+
+Story: a concise “Since 2012” section introducing Bilal and the Al Yarmook business. Use only supplied history. Reserve any owner or shop photography for genuine approved assets.
+
+Coverage: an elegant Dubai, Sharjah and Ajman section, with the Sharjah address and a working directions link. Avoid a fabricated coverage map or claimed service radius.
+
+Advice previews: a few useful washer and fridge guides, drawn from the actual published article collection. Link to the advice index.
+
+FAQ: answer only confirmed questions about the inspection fee, main services, service areas and shop location. Omit speculative answers. Expanders must be keyboard accessible and retain readable content in the HTML.
+
+Closing contact section: repeat the service purpose and fee, make the next action obvious, and include the complete address. Footer: full business name, useful navigation and appropriate factual business details.
+
+6. ADVICE INDEX
+
+Match the second supplied mockup. Use this headline:
+“A little know-how. A lot less worry.”
+
+Include a restrained introduction, clearly labelled appliance categories and a visually dominant featured guide: “Washing machine not draining? What to check before booking a repair”. The supporting grid should include these proposed topics:
+
+- Fridge not cooling.
+- Washing machine making noise.
+- Fridge door not sealing properly.
+- AC not cooling.
+
+Keep washer and fridge content visually dominant. Give each card a meaningful image, category, readable title, useful excerpt and real destination. Never invent publication dates, authorship or reading times. Derive reading time from the completed article if displayed.
+
+Provide useful category or problem filters with an obvious active state, a reset action and a clear empty state. Filtering must work on mobile and with a keyboard. Do not make an attractive but nonfunctional search box. Avoid indexing duplicate filter combinations.
+
+End with a calm inspection CTA using “AED 50 inspection fee” and the three service cities. Keep the page editorial and readable rather than saturating every card with sales buttons.
+
+7. ARTICLE TEMPLATE AND EDITORIAL WORKFLOW
+
+Create a genuine article-detail template with breadcrumbs, one main heading, a concise introduction, meaningful image, readable body measure, logical sections, optional contents navigation, related guides and an inspection CTA. On desktop, a small sidebar may carry the fee and contact action; on mobile, place it after useful content without covering the text.
+
+Research article guidance against the relevant appliance manufacturers’ official support documentation. Distinguish general observations from model-specific instructions. Link sources accurately and write original explanations. Never infer a precise mechanical fault from a symptom alone. Avoid unverified price estimates, error-code interpretations or repair procedures.
+
+Keep advice appropriate for homeowners. Explain when to consult the model manual or stop and contact a technician. Do not instruct readers to work on live electrical components, bypass safety devices, open sealed refrigeration systems or perform specialist repairs. Research safety-critical statements before publication.
+
+Do not claim “Written by Bilal”, “Technician reviewed” or professional credentials without actual approval. Use an accurate organisation-level byline if appropriate, or omit authorship in the preview. Publish real dates only when the content is published. Keep incomplete or unreviewed drafts out of the public site.
+
+8. CONTACT AND ENQUIRY BEHAVIOUR
+
+Build a simple enquiry path around confirmed WhatsApp and telephone destinations. An optional client-side selector can collect appliance type, city and a short description, then compose an encoded WhatsApp message. Explain that the next step opens WhatsApp for the customer to send the enquiry.
+
+Use “Request an inspection”, not “Confirm booking”, unless a real scheduling system exists. Opening WhatsApp or a telephone link must never produce an on-site “Appointment confirmed” message. Do not claim a message was delivered. Do not collect personal details into a form that has no working destination.
+
+Use valid international telephone formatting and safely encoded messages. Provide a fallback if a contact app cannot open. Do not introduce uploads, payment collection or stored customer data unless the complete supported flow is implemented and authorised.
+
+9. SEO FOUNDATION
+
+Deliver crawlable initial HTML, meaningful page titles, concise descriptions, semantic headings, descriptive links and useful image alt text. Use natural service and location language. Do not repeat lists of cities and keywords to fill space.
+
+Configure canonical URLs and sitemap entries from the confirmed production domain. Keep previews unindexed. Enable production indexing deliberately after factual launch requirements are resolved. Avoid placeholder domains in public metadata.
+
+Add truthful LocalBusiness JSON-LD for the real Sharjah business. Use only verified properties and matching visible content. Do not add self-serving review or aggregate-rating markup. Article or BlogPosting markup must match genuine authorship, dates, images and visible content. Validate structured data and fix errors; never promise rankings or rich results.
+
+Keep visible FAQs because they help customers. Do not promote FAQ rich-result eligibility: Google discontinued that feature in May 2026. Avoid near-duplicate city doorway pages and mass-produced articles without distinct value. A single coherent homepage plus genuinely helpful articles is the required initial architecture.
+
+10. QUALITY, VERIFICATION AND HANDOFF
+
+Use semantic landmarks, labelled controls, visible focus, sensible keyboard order and accessible error states. Respect reduced-motion preferences. Keep body text readable, contact actions easy to tap and sticky elements clear of content and device safe areas.
+
+Optimise actual assets with suitable WebP or AVIF output, responsive sources and explicit dimensions. Prioritise the hero image appropriately and lazy-load lower-page images. Keep fonts and JavaScript economical. Prevent layout shifts and horizontal overflow.
+
+Visually inspect the homepage, advice index and article template at approximately 390, 768 and 1440 pixels wide. Also check narrow 320-pixel behaviour. Verify headline wrapping, image crops, spacing, contrast, mobile navigation, filters, anchors, FAQs, article links and configured contact actions. Compare screenshots with the supplied designs and correct observed mismatches.
+
+Run the project’s appropriate build and meaningful checks. Inspect initial HTML and metadata, broken links, console errors and structured data. Report measured performance honestly; do not invent Lighthouse scores or claim complete browser coverage without evidence. Fix concrete defects before adding optional features.
+
+Deliver the finished reviewable preview, maintainable source, central configuration, article content and source notes, concise setup instructions, verification results and a short list of unresolved owner facts. Distinguish completed work from launch requirements. Do not stop at a plan, a static screenshot or a collection of unfinished components.
+
+PRIMARY SEO REFERENCES
+
+https://developers.google.com/search/docs/appearance/structured-data/local-business
+https://developers.google.com/search/docs/appearance/structured-data/article
+https://developers.google.com/search/docs/appearance/structured-data/sd-policies
+https://developers.google.com/search/docs/essentials/spam-policies
+https://developers.google.com/search/updates

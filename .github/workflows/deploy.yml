@@ -35,7 +35,7 @@ jobs:
       - name: Check responsive pages and enquiry controls
         env:
           NODE_PATH: ${{ runner.temp }}/browser-qa/node_modules
-          QA_INLINE_REVIEW: ${{ github.run_number == 6 && '1' || '0' }}
+          QA_INLINE_REVIEW: ${{ github.run_number == 7 && '1' || '0' }}
         run: node scripts/browser-qa.cjs
       - name: Save browser review screenshots
         if: always()

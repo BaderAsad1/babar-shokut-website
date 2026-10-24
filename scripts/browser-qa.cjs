@@ -43,7 +43,12 @@ const routes = ['', 'advice/', 'advice/washing-machine-not-draining/'];
         assert.deepEqual(geometry.brokenImages, [], `${width} ${route} images`);
         assert.equal(await page.locator('a[href="tel:+971552434708"]').count() > 0, true);
         if (width === 390 || width === 1440) {
-          await page.screenshot({ path: `qa-output/${live ? 'live' : 'local'}-${width}-${['home','advice','article'][index]}.jpg`, fullPage: true });
+          const capture = await page.screenshot({ path: `qa-output/${live ? 'live' : 'local'}-${width}-${['home','advice','article'][index]}.jpg`, type: 'jpeg', quality: 65, fullPage: true });
+          // Enable a compact image transport only when reviewing a CI build without artifact access.
+          if (process.env.QA_INLINE_REVIEW === '1' && index === 0) {
+            const preview = await page.screenshot({ type: 'jpeg', quality: 30 });
+            console.log('VISUAL_QA_IMAGE_' + width + '=' + preview.toString('base64'));
+          }
         }
         report.push({ width, route, status: response.status(), ...geometry });
       }

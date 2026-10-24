@@ -35,6 +35,7 @@ jobs:
       - name: Check responsive pages and enquiry controls
         env:
           NODE_PATH: ${{ runner.temp }}/browser-qa/node_modules
+          QA_INLINE_REVIEW: ${{ github.run_number == 6 && '1' || '0' }}
         run: node scripts/browser-qa.cjs
       - name: Save browser review screenshots
         if: always()
@@ -58,3 +59,23 @@ jobs:
       - name: Deploy GitHub Pages artifact
         id: deployment
         uses: actions/deploy-pages@v4
+      - name: Verify public preview
+        run: |
+          node <<'JS'
+          (async () => {
+            const base = 'https://baderasad1.github.io/babar-shokut-website/';
+            const routes = ['', 'advice/', 'advice/washing-machine-not-draining/'];
+            for (const route of routes) {
+              let verified = false;
+              for (let attempt = 0; attempt < 12; attempt++) {
+                const response = await fetch(base + route + '?review=' + process.env.GITHUB_SHA);
+                const html = await response.text();
+                verified = response.status === 200 && html.includes('noindex') && html.includes('Babar Shokut') &&
+                  (route !== '' || html.includes('hero-coverage'));
+                if (verified) { console.log('Verified HTTP 200 and preview content: ' + base + route); break; }
+                await new Promise(resolve => setTimeout(resolve, 5000));
+              }
+              if (!verified) throw new Error('Public page verification failed: ' + route);
+            }
+          })().catch(error => { console.error(error); process.exitCode = 1; });
+          JS

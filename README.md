@@ -86,7 +86,7 @@ This repository is structured for the Codex desktop app. The root `AGENTS.md` co
 
 To use it in Codex, open this repository folder as a **local project**, then ask Codex to execute `docs/CODEX-TASK.md`. Codex should handle repository creation, GitHub Pages configuration, and visual verification using an authenticated local GitHub session. An automated, non-destructive publishing helper is at `scripts/publish_github_pages.sh`. Do not report a live URL until the deployed site returns a successful response.
 
-## Approved premium concept implementation
+## Current design and content
 
 The preview retains the illustrative appliance assets, with a revised ivory split hero, readable Manrope headings, framed service cards, visible business information and a compact mobile footer. Libre Caslon Display is reserved for the wordmark. The original generated concept remains in `design/approved-premium-concept.png` as historical context. The generated concept is a visual reference; interactive content remains real HTML.
 

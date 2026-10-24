@@ -88,6 +88,8 @@ To use it in Codex, open this repository folder as a **local project**, then ask
 
 ## Approved premium concept implementation
 
-The current preview implements `design/approved-premium-concept.png` as responsive HTML/CSS, with a cinematic appliance hero, Libre Caslon Display headings, ivory sections, compact service/process/advice layouts and a navy contact footer. The generated concept is a visual reference; interactive content remains real HTML.
+The preview retains the illustrative appliance assets, with a revised ivory split hero, readable Manrope headings, framed service cards, visible business information and a compact mobile footer. Libre Caslon Display is reserved for the wordmark. The original generated concept remains in `design/approved-premium-concept.png` as historical context. The generated concept is a visual reference; interactive content remains real HTML.
 
 Contact actions use **Call us**. The headline offer is **Inspection for only AED 50**, followed by a separate-repair-cost statement. Business information and FAQs remain available in the expandable About section. Existing article routes and source links are preserved. The current service-led articles support company enquiries instead of self-repair walkthroughs. New illustrative assets use versioned `*-premium.webp` filenames; provenance and generation prompts are recorded in `assets/ASSET-NOTES.md`.
+
+Responsive browser checks run in GitHub Actions before deployment using a CI-only Playwright installation. They cover the homepage, advice hub and drainage article at 320, 390, 768 and 1440 pixels, image loading, noindex, mobile navigation, service presets, a WhatsApp draft with external opening intercepted, and blog filters. Screenshots are saved to the browser-review workflow artifact. The static site itself has no Node dependency.
